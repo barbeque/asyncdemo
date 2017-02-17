@@ -6,7 +6,19 @@
         xmlns:local="clr-namespace:AsyncMess"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock>1000</TextBlock>
+            <TextBox Name="_fib1000"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock>100</TextBlock>
+            <TextBox Name="_fib100"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock>10</TextBlock>
+            <TextBox Name="_fib10"/>
+        </StackPanel>
+        <Button Click="Button_Click">Refresh</Button>
+    </StackPanel>
 </Window>
